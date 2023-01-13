@@ -12,7 +12,6 @@ function onSpeak(e){
     guess = e.results[0][0].transcript
     showGuessOnScreen(guess)
     guessingIsValid(guess)
-
 }
 
 function showGuessOnScreen(guess){
